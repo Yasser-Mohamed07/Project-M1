@@ -1,0 +1,640 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 5900px;
+}
+
+/* ////////////////////// */
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.img-header{
+    margin-left: 30px;
+}
+.ul-header{
+    text-decoration: none;
+    float: right;
+    
+}
+.ul-header li{
+    display: inline-block;
+    margin-top: 7px;
+}
+.ul-header li a{
+    margin-left: 20px;
+    color: aliceblue;
+   margin-right: 10px;
+ 
+}
+.ul-header li a:hover{
+    background-color: rgb(172, 172, 175);
+}
+
+/* ////////////////////////////////////////////////////// */
+.back-soura{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    background-image: url(../imges/back.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.intro{
+   
+    width: 750px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: aliceblue;
+}
+.head-intro{
+    font-size: 70px;
+}
+.btn-intro{
+    padding: 15px 40px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 0;
+    }
+    .bb1{
+        background-color: aliceblue;
+        color: black;
+        font-weight: 100;
+    }
+    .bb1:hover{
+        background-color: rgb(173, 173, 173);
+        opacity: 0.8;
+    }
+
+    .bb2{
+        background-color: blue;
+        color: aliceblue;
+    }
+    .bb2:hover{
+        color: rgb(0, 0, 0);
+        opacity: 0.8;
+    }
+
+    /* ///////////////////////////////////////////////////////////////////////// */
+    .hwelcome{
+        text-align: center;
+    }
+    .linewel{
+        width: 60px;
+        height: 5px;
+        background-color: blue;
+        margin: auto;
+        margin-top: -10px;
+    }
+    .welcontanier{
+        width: 80%;
+        height: 400px;
+        margin: auto;
+    }
+    .welparent{
+        overflow: auto;
+        margin: auto;
+    }
+    .welcome-form{
+        width: 300px;
+        height: 250px;
+     border: 1px solid;
+        text-align: center;
+        padding: 15px 20px;
+        float: left;
+     margin-left: 50px;
+     position: relative;
+     z-index:5;
+ }
+a i{
+font-size: 40px;
+color: rgb(79, 79, 252);
+}
+.welcome-form:hover{
+    color: #fff;
+    border: 1px solid;
+    border-color: black;
+}
+.welcome-form:hover .welinfo a{
+  color: rgb(79, 79, 190);
+}
+.welcome-form::after{
+    position: absolute;
+    content: "";
+    width:0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 1);
+    opacity: 0;
+    z-index: -1;
+   }
+   .welcome-form:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 0.5s;
+   }
+   .iconwel{
+    position: absolute;
+    z-index: 4;
+    margin-left: 100px;
+    margin-top: -20;
+}
+/* ////////////////////////////////////////////////////////////////// */
+  .work-contanier{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(233, 229, 229);
+  }
+
+  .work{
+    text-align: center;
+    font-size: 50px;
+  }
+  .line-work{
+    width: 70px;
+    height: 5px;
+    background-color: rgb(113, 113, 245);
+    margin: auto;
+  }
+.parent-work{
+    width: 80%;
+    margin: auto;
+}
+  .work1{
+    float: left;
+    margin: 5% 5%;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////////////////// */
+
+  .offer{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+  }
+  .offer-contanier{
+    width: 95%;
+    height: 600px;
+    margin: auto;
+  }
+  .parent-work{
+    overflow: auto;
+  }
+  .offer1{
+    width: 300px;
+    height: 200px;
+    border: 3px solid;
+    border-color: black;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 30px; 
+  }
+
+
+  .offer1:hover{
+    color: #fff;
+
+  }
+  .title-offer{
+    font-size: 33px;
+    margin-top: 30px;
+  }
+  .tt1{
+    color: rgb(68, 68, 255);
+  }
+  .offer1::after{
+    position: absolute;
+    content: "";
+    width:0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 1);
+    opacity: 0;
+    z-index: -1;
+   }
+   .offer1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 0.5s;
+   }
+ /* ---------------------------------------------------------------------- */
+
+ /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+ .contanier-us{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(230, 230, 230);
+ }
+ .parent-us{
+  width: 80%;
+  margin: auto;
+  height: 80%;
+  overflow: auto;
+ }
+.us-head{
+  width: 600px;
+  height: 300px;
+margin-left: 30px;
+float: left;
+}
+.line-us{
+  width: 60px;
+  height: 5px;
+  background-color: rgb(106, 106, 255);
+ }
+
+.list-us ul{
+ list-style: none;
+}
+.list-us ul i{
+  color: blue;
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+.contanier-office{
+  width: 100%;
+  height: 300px;
+background-image: url(../imges/office.jpeg);
+background-position: -3;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+position: relative;
+
+}
+.overlay-off{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+top: 0;
+left: 0;
+
+
+}
+.parent-office{
+  width: 80%;
+  height: 100%;
+  margin-left: 140px;
+position: absolute;
+z-index: 2;
+overflow: auto;
+}
+.icon-office{
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  padding: 40px 0px;
+  color: #fff;
+  float: left;
+  margin: 60px 3%;
+}
+.off-icon{
+  color: rgb(85, 85, 255);
+  font-size: 30px;
+}
+/* ////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////// */
+.Price{
+  font-size: 40px;
+  text-align: center;
+
+}
+.l10{
+  width: 80px;
+  height: 4px;
+  background-color: rgba(79, 76, 255, 0.973);
+  margin: auto;
+}
+.price-contanier{
+  width: 100%;
+  height: 600px;
+  background-color:  rgb(235, 230, 230);
+  position: relative;
+}
+.price-header{
+  padding: 50px 0px;
+}
+.parent-price{
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  overflow: auto;
+}
+
+.shap1{
+  width: 300px;
+  height: 370px;
+  border: 2px solid;
+  border-color: rgb(112, 111, 111);
+  text-align: center;
+  padding: 20px 0px;
+  line-height: 45px;
+  position: relative;
+  float: left;
+  margin-left: 80px;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid;
+  margin: auto;
+}
+.p12{
+  font-size: 50px;
+  text-align: center;
+  
+}
+.Month{
+  font-size: 20px;
+  text-align: center;
+}
+
+.shap1::after{
+  position: absolute;
+content: "";
+width: 100%;
+height: 0;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0);
+visibility: hidden;
+}
+
+.shap1:hover::after{
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 1s;
+
+}
+.shap1:hover h2{
+  color: rgb(37, 139, 255);
+}
+.btn12{
+  padding: 5px;
+  background-color: rgb(255, 252, 252);
+  border-radius: 5px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
+.web-container{
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  background-image: url(../imges/land.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.web-parent{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+.web-1{
+  width: 500px;
+  height: 300px;
+  padding: 60px 10px;
+  float: left;
+
+}
+.pic-web{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../imges/messi.jpeg);
+  background-size: cover;
+  display: block;
+  float: left;
+
+}
+.web-info{
+  width: 250px;
+  height: 70px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+.p-web{
+  padding: 70px 10px;
+  color: #fff;
+}
+.web2{
+  background-image: url(../imges/Mo\ Salah.jpeg);
+}
+/* ////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+.team-contanier{
+  width: 100%;
+  height: 500px;
+ 
+}
+.team-title{
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0px;
+}
+.line-team{
+  width: 60px;
+  height: 5px;
+  background-color: rgb(81, 81, 233);
+  margin: auto;
+  margin-top: -15px;
+}
+.parent-team{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+.team1{
+  width: 25%;
+  height: 320px;
+ background-color: #c9c8c8;
+  text-align: center;
+  padding: 20px 0px;
+  position: relative;
+  float: left;
+ margin: 0px 4%; 
+}
+.team1::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  visibility: hidden;
+}
+.team1:hover::after{
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 1s;
+}
+
+.team-pic{
+  background-color: blue;
+  width: 80%;
+  margin: auto;
+  position: relative;
+
+}
+.team-pic img{
+  width: 100%;
+}
+.overlay-team{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5) ;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+.team1:hover .overlay-team{
+  visibility: visible;
+}
+.overlay-team a{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(13, 126, 231, 0.979);
+  margin-left: auto;
+}
+.overlay-team a i{
+  color: #dfdbdb;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.team1:hover .info-team h2{
+  color: #fff;
+}
+.team1:hover .info-team p{
+  color: blue;
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////// */
+.news{
+  text-align: center;
+}
+.line-new{
+  width: 50px;
+  height: 3px;
+  background-color: rgb(52, 71, 245);
+  margin: auto;
+  margin-top: 5px;
+}
+.new-container{
+  width: 100%;
+}
+.parent-new{
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  overflow: auto;
+}
+.new1{
+  width: 27%;
+  height:500px;
+  padding: 10px 5px;
+  position: relative;
+  float: left;
+  margin: 0 3%;
+}
+.new1 i{
+  font-size: 5px;
+}
+.new1 span{
+  font-size: 10px;
+}
+
+.new1::after{
+  position:absolute;
+  content: " ";
+  width: 100%;
+  height: 0;
+  top:0;
+  left: 0;
+  background-color: rgb(103, 156, 255, 0.5);
+  visibility: hidden;
+}
+.new1:hover::after{
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  transition: 1s;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////// */
+.final-contanier{
+  width: 100%;
+  height: 250px;
+  background-color: rgb(100, 100, 100);
+  position: relative;
+}
+.parent-final{
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow:auto;
+}
+.photo1{
+  margin-left: 130px;
+  margin-top: 20px;
+}
+.final-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(96, 170, 255);
+  color: #fff;
+  text-align: center;
+  padding: 10px 10px;
+  float: left;
+  margin: 10px 1%;
+}
+.f1{
+  margin-left: 60px;
+}
+
+.pf{
+  font-size: 5px;
+  text-align: center;
+}
+/* -//////////////////////////////////////////////////////////////////////// */
+/* 8///////////////////////////////////////////////////////////////// */
